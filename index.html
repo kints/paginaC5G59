@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- UTF-8 es para caracteres internacionales -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mi primera página">
+  <title>Mi Página Título Ñ</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="./assets/img/Junior-Achievement-Argentina_Positivo-1.png" alt="Logo de JA">
+    </div>
+    <nav>
+      <ul>
+        <a href="https://junior.org.ar" target="_blank">
+          <li>Home</li>
+        </a>
+        <a href="https://junior.org.ar/nosotros">
+          <li>Nosotros</li>
+        </a>
+        <a href="https://junior.org.ar/inscripciones">
+          <li>Inscripciones</li>
+        </a>
+        <a href="https://junior.org.ar/novedades">
+          <li>Novedades</li>
+        </a>
+        <a href="https://junior.org.ar/alumni">
+          <li>Alumni</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <div id="presentacion">
+    <h1>QUIENES SOMOS</h1>
+    <p>Somos una de las ONG más grandes del mundo.  A través del aprendizaje activo en educación financiera, formación
+      para el trabajo y emprendimiento, preparamos e inspiramos a los jóvenes para que sean protagonistas de su futuro.
+    </p>
+  </div>
+  <div class="contenedor">
+    <div class="caja">
+      <img src="./assets/img/desafio.jpg" alt="El desafio ayudar a los jóvenes" title="El desafio es ayudar">
+      <h1>EL DESAFÍO</h1>
+      <button onclick='mostrarOcultarTexto("elDesafioP");'>Mostrar/Ocultar Texto</button>
+      <p id="elDesafioP">Insertos en la cuarta revolución industrial, la tecnología irrumpe en todos los ámbitos de la
+        vida: aparecen la
+        robótica, <small>la biotecnología</small>, la inteligencia artificial. Desaparecen profesiones y surgen nuevas. 
+        Los jóvenes son especialmente vulnerables… Ver más
+      </p>
+    </div>
+    <div class="caja">
+      <img src="./assets/img/laSolucion.jpg" alt="La solución es capacitar a los jóvenes en TI"
+        title="La solución es capacitar a los jóvenes en TI">
+      <h1>LA SOLUCIÓN</h1>
+      <button onclick="mostrarOcultarTexto('laSolucionP');">Mostrar/Ocultar Texto</button>
+      <p id="laSolucionP">Desde hace 100 años, promovemos una actitud emprendedora en millones de jóvenes para que se
+        sientan
+        protagonistas y emprendedores de sus propias vidas. 
+        Todas nuestras iniciativas son un puente… Ver más</p>
+    </div>
+    <div class="caja">
+      <img src="./assets/img/impacto.jpg" alt="El impacto de la capacitacion a los jóvenes es mejores empleos"
+        title="El impacto de la capacitacion a los jóvenes es mejores empleos">
+
+      <h1 id="impacto">IMPACTO</h1>
+      <button onclick='mostrarOcultarTexto("impactoP");'>Mostrar/Ocultar Texto</button>
+      <p id="impactoP">Trabajamos en cientos de escuelas cada año formando a miles de jóvenes para que estén mejor
+        preparados para el
+        futuro.
+        <br>
+        Conocé en detalle los resultados de nuestras acciones en los distintos ejes de trabajo… Ver más
+      </p>
+    </div>
+  </div>
+  <div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5539.931408633057!2d-101.12505927350885!3d19.722971652598243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d0e07af8bce0b%3A0xfa2a3c200fde6225!2sJA%20Michoac%C3%A1n!5e0!3m2!1ses-419!2smx!4v1723488344982!5m2!1ses-419!2smx"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ualV49GZ1nQ?si=ryjr9gvebcMhnmF1"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <footer>
+    <p>Conocé nuestra <a href="https://junior.org.ar/politica-de-privacidad/">Política de privacidad</a> | ©2022 Junior
+      Achievement Argentina. Todos los derechos reservados.</p>
+  </footer>
+  <script src="./assets/js/codigo.js"></script>
+</body>
+
+</html>
